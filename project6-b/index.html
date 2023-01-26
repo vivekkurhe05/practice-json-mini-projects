@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yusei+Magic&display=swap');
+
+        html {
+            font-family: 'Yusei Magic', sans-serif;
+        }
+
+        .dataContainer {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid black;
+            width: 20%;
+        }
+
+        .box:hover {
+            cursor: pointer;
+        }
+
+        .upper_data {
+            text-align: center;
+            margin: auto;
+        }
+
+        h1 {
+            border: 1px solid grey;
+            width: 80%;
+            margin: 0 auto 10px;
+            text-align: center;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON</h1>
+    <input type="text" class="val">
+    <button class="btn">Click</button>
+    <div class="output"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

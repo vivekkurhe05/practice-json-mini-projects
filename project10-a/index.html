@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript API</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .output1 {
+            width: 80%;
+            margin: auto;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .val, .btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            height: 45px;
+            font-size: 1.2em;
+        }
+
+        .output {
+            width: 80%;
+            margin: auto;
+            border: 1px solid #ddd;
+        }
+
+        .box {
+            padding: 15px;
+            border: 1px dotted #ddd;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-bottom: 5px;
+        }
+
+        .box:hover {
+            background-color: #eee;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 5px;
+            margin: 5px;
+            font-style: italic;
+            border: 1px solid #ddd;
+        }
+
+        .tag::before {
+            content: '-';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <input type="text" class="val" placeholder="Search here">
+    <button class="btn">Load Queries</button>
+    <div class="output"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
